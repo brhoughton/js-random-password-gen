@@ -19,7 +19,7 @@ const createPassword = () => {
 	passwordBox.value = password;
 };
 
-function copyPassword() {
+const copyPassword = () => {
 	passwordBox.select();
 	navigator.clipboard.writeText(passwordBox.value);
-}
+};
