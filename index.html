@@ -4,7 +4,19 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Random Password Generator</title>
+		<title>Super Secret Code Generator!</title>
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<h1>Generate a <br /><span> Super Secret Password</span></h1>
+			<div class="display">
+				<input type="text" id="password" placeholder="Password" />
+				<img src="images/copy.png" alt="copy icon" onclick="copyPassword()" />
+			</div>
+			<button onclick="createPassword()">
+				<img src="images/generate.png" alt="generate icon" />Generate Password
+			</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
